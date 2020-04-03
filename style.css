@@ -19,7 +19,7 @@ body {
 
 h2 {
   font-weight: 200;
-  font-size: 30px;
+  font-size: 38px;
 }
 @media (max-width: 690px) {
   h2 {
@@ -53,24 +53,24 @@ h2 {
 
 .cards-container {
   padding-top: 40px;
-  max-width: 1050px;
+  max-width: 1125px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: [col-gap] 30px [col-start] 310px [col-gap] 30px [col-start] 310px [col-gap] 30px [col-start] 310px [col-gap] 30px;
-  grid-template-rows: [row-start] 90px [row-gap] 30px [row-start] 90px [row-gap] 30px [row-start] 90px [row-gap] 30px [row-start] 90px [row-gap] 30px;
+  grid-template-columns: [col-gap] 30px [col-start] 335px [col-gap] 30px [col-start] 335px [col-gap] 30px [col-start] 335px [col-gap] 30px;
+  grid-template-rows: [row-start] 110px [row-gap] 30px [row-start] 110px [row-gap] 30px [row-start] 110px [row-gap] 30px [row-start] 110px [row-gap] 30px;
 }
 @media (max-width: 1050px) {
   .cards-container {
-    max-width: 650px;
-    grid-template-columns: [col-start] 310px [col-gap] 30px [col-start] 310px [col-gap];
-    grid-template-rows: [row-start] 210px [row-gap] 30px [row-start] 210px [row-gap];
+    max-width: 700px;
+    grid-template-columns: [col-start] 335px [col-gap] 30px [col-start] 335px [col-gap];
+    grid-template-rows: [row-start] 220px [row-gap] 30px [row-start] 220px [row-gap];
   }
 }
 @media (max-width: 690px) {
   .cards-container {
-    max-width: 310px;
-    grid-template-columns: 310px;
-    grid-template-rows: [row-line] 250px [row-line] 250px [row-line] 250px [row-line] 250px;
+    max-width: 335px;
+    grid-template-columns: 335px;
+    grid-template-rows: [row-line] 220px [row-line] 220px [row-line] 220px [row-line] 220px;
     grid-row-gap: 20px;
   }
 }
@@ -93,8 +93,8 @@ h2 {
   color: #a3a5ae;
 }
 .card img {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   position: absolute;
   padding: 30px 25px;
   right: 0;
